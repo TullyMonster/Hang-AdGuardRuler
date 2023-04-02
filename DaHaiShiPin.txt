@@ -1,6 +1,6 @@
 ! Title: 大[广]海[告]视[过]频[滤]
 ! APP_NAME = "".join(["大[广]海[告]视[过]频[滤]"[i] for i in range(0, len("大[广]海[告]视[过]频[滤]")) if i % 4 == 0])
-! Homepage: https://github.com/TullyMonster/Hang-AdGuardRuler/edit/main/DaHaiShiPin.txt
+! Homepage: https://github.com/TullyMonster/Hang-AdGuardRuler/blob/main/DaHaiShiPin.txt
 ! by: 离尉崽崽在干嘛！
 ! !!!!!!!!!
 
