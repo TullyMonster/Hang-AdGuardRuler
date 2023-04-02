@@ -1,0 +1,21 @@
+! Title: 大[广]海[告]视[过]频[滤]
+! Homepage: https://github.com/TullyMonster/Hang-AdGuardRuler/edit/main/DaHaiShiPin.txt
+! by: 离尉崽崽在干嘛！
+! APP_NAME = "".join(["大[广]海[告]视[过]频[滤]"[i] for i in range(0, len("大[广]海[告]视[过]频[滤]")) if i % 4 == 0])
+! !!!!!!!!!
+
+! 拦截 APP_NAME 广告请求 (START)
+||yun.hljk.wang^$app=com.bigsea.bsfilms
+||uty.tangbaos.com/api^$app=com.bigsea.bsfilms
+||down.hahxl.com/*.apk$app=com.bigsea.bsfilms
+||u.youyudong.cn/api/public/upgrade$app=com.bigsea.bsfilms
+||u.youyudong.cn/api/log/ad$app=com.bigsea.bsfilms
+||hd30.jiarui666.cn^$app=com.bigsea.bsfilms
+||api.hzsanjiaomao.com^$app=com.bigsea.bsfilms
+||uty.ddssc.cn^$app=com.bigsea.bsfilms
+||zh.tuikex.xyz^$app=com.bigsea.bsfilms
+||fsdfkjd.ykchicheng.com^$app=com.bigsea.bsfilms
+||qw.pirelskr.com^$app=com.bigsea.bsfilms
+||u.sishujy.cn^$app=com.bigsea.bsfilms
+||lenc.fpsgr.com^$app=com.bigsea.bsfilms
+! 拦截 APP_NAME 广告请求 (END)
