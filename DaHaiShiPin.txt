@@ -1,10 +1,11 @@
-! Title: 大[广]海[告]视[过]频[滤]
-! APP_NAME = "".join(["大[广]海[告]视[过]频[滤]"[i] for i in range(0, len("大[广]海[告]视[过]频[滤]")) if i % 4 == 0])
+! Title: 蓝[广]天[告]视[过]频[滤] (兼容“大-海**”)
+! APP_NAME1 = "".join(["大[广]海[告]视[过]频[滤]"[i] for i in range(0, len("大[广]海[告]视[过]频[滤]")) if i % 4 == 0])
+! APP_NAME2 = '蓝' + '天' + APP_NAME1[-2:]
 ! Homepage: https://github.com/TullyMonster/Hang-AdGuardRuler/blob/main/DaHaiShiPin.txt
 ! by: 离尉崽崽在干嘛！
 ! !!!!!!!!!
 
-! 拦截 APP_NAME 广告请求 (START)
+! 拦截 APP_NAME1 广告请求 (START)
 ||yun.hljk.wang^$app=com.bigsea.bsfilms
 ||uty.tangbaos.com/api^$app=com.bigsea.bsfilms
 ||down.hahxl.com/*.apk$app=com.bigsea.bsfilms
@@ -18,4 +19,21 @@
 ||qw.pirelskr.com^$app=com.bigsea.bsfilms
 ||u.sishujy.cn^$app=com.bigsea.bsfilms
 ||lenc.fpsgr.com^$app=com.bigsea.bsfilms
-! 拦截 APP_NAME 广告请求 (END)
+! 拦截 APP_NAME1 广告请求 (END)
+
+
+! 拦截 APP_NAME2 广告请求 (START)
+||sdk.e.qq.com^$app=com.sameal.fresh.kk
+||dc.sigmob.cn^$app=com.sameal.fresh.kk
+||e.kuaishou.com^$app=com.sameal.fresh.kk
+||adservice*.*^$app=com.sameal.fresh.kk
+||e.qq.com^$app=com.sameal.fresh.kk
+/api/ad/*$app=com.sameal.fresh.kk
+||gdtimg.com^$app=com.sameal.fresh.kk
+||toblog.ctobsnssdk.com^$app=com.sameal.fresh.kk
+||log-api.pangolin-sdk-toutiao.com^$app=com.sameal.fresh.kk
+||pangolin-sdk-toutiao.com^$app=com.sameal.fresh.kk
+||076lvo.xyz^$app=com.sameal.fresh.kk
+||tdid.m.qq.com^$app=com.sameal.fresh.kk
+||dp3.qq.com^$app=com.sameal.fresh.kk
+! 拦截 APP_NAME2 广告请求 (END)
